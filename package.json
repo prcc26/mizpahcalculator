@@ -1,0 +1,31 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["calculator ",
+    "add",
+    "sub",
+    "div",
+    "mul",
+    "factorial"],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/prcc26/mizpahcalculator.git"
+    },
+    "bugs": {
+      "url": "https://github.com/prcc26/mizpahcalculator.git/issues"
+    },
+  "author": "",
+  "license": "ISC",
+  "description": "creating a calculator",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+   "homepage": "https://github.com/prcc26/mizpahcalculator.git"
+}
